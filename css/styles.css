@@ -5,9 +5,14 @@
     height: 100vh; /* altura da página é todo o conteúdo dela*/
     align-items: center; /* centraliza na vertica*/
     background-color: rgb(14, 12, 12);
+    background-image: url('https://t.ctcdn.com.br/2ouWJ9i2-chTuwmu2sypN-0sd2w=/3x1360:2677x2892/1200x675/smart/i720062.jpeg'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire page */
+    background-attachment: fixed; /* Keep the image fixed when scrolling */
+    background-position: center; /* Center the image */
+    background-color: #f0f0f0; /* Optional fallback color */
 }
 .container {
-    background-color: pink;
+    background-color: blue;
     padding: 20px;
     border-radius: 20px;
     box-shadow: 4px 8px;
@@ -28,9 +33,9 @@ button:hover{
     background-color: red;
 }
 img{
-    width: 150px;
-    height:150px;
-    border-radius: 75px;
+    width: 200px;
+    height:200px;
+    border-radius: 50%;
     margin-bottom: 10px;
     margin-top: 10px;
 
