@@ -1,21 +1,26 @@
 body{
     font-family: arial, sans-serif;
     margin: 0; 
-    padding: 0;background-color: #f4f4f4;
-    text-align: center;
-}
-header{
-    background-color: #28a745;
-    color: white;
-    padding: 15px 0px;
-    font-size: 24px;
-}
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;}
 nav{
-    background: #007bff;
+    background: blue;
     padding: 10px;
     display: flex;
     justify-content: space-between; 
     align-items: center;
+}
+header{
+    background-color: blue;
+    color: white;
+    padding: 15px 0px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    width: auto;
+    gap: 376px;
 }
 #links-menu{
     display: flex;
@@ -26,7 +31,24 @@ nav a{
     text-decoration: none;
     padding: 10px 15px;
     font-size: 10px;
-    background-color: blue;
+    background-color: rgb(41, 41, 190);
     border-radius: 5px;
+}
+img{
+    width: 120px;
+    height: auto;
+    display: flex;
+    padding: 0px 50px;
+}
+.container{
+    width: 80%;
+    background: pink;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 20px;
+    text-align: justify;
     
+}
+h2{
+    text-align: ;
 }
