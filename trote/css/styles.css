@@ -39,7 +39,7 @@ img{
 }
 .container{
     width: 80%;
-    background: gray;
+    background: white;
     border-radius: 10px;
     margin: 10px auto;
     padding: 20px;
@@ -59,4 +59,24 @@ table{
 }
 head{
     text-align: center;
+}
+.Laranja{
+    background-color: rgb(255, 136, 0);
+}
+.Preto{
+    background-color: black;
+    color:#f4f4f4;
+}
+.Roxo{
+    background-color: purple;
+}
+.Verde{
+    background-color: green;
+}
+.Vermelho{
+    background-color: red;
+}
+.Azul{
+    background-color: navy;
+    color: white;
 }
